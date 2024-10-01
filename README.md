@@ -55,6 +55,10 @@ pnpm run test
 
 See the full [testing guide](./playwright-tests/README.md).
 
+## Project Structure
+
+This project is a [TanStack Start](https://tanstack.com/start/latest) app, utilizing the powerful [TanStack Router](https://tanstack.com/router/latest).
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
