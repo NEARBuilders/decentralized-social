@@ -1,16 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Layout } from '../components/Layout'
-import React from 'react'
+import { Layout } from '../components/layout'
+import JoinButton from '../components/join-button';
 
 export const Route = createFileRoute("/join")({
   component: Join,
 });
 
 function Join() {
-  const handleSign = () => {
-    // Implement signing logic here
-    console.log("Document signed!");
-  };
 
   return (
     <Layout>
@@ -20,8 +16,8 @@ function Join() {
         </div>
         <div className="container-footer">
           <div className="button-container">
-        <button className="cta sign-button" onClick={handleSign}>Sign 📝</button>
-        </div>
+            <JoinButton />
+          </div>
         </div>
       </div>
     </Layout>

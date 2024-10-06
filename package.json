@@ -4,9 +4,9 @@
   "homepage": "/",
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start",
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite start",
     "fmt": "prettier --write '**/*.{js,jsx,ts,tsx,json}'",
     "fmt:check": "prettier --check '**/*.{js,jsx,ts,tsx,json}'",
     "test": "npx playwright test",
@@ -28,17 +28,26 @@
     "@playwright/test": "^1.46.1",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
     "prettier": "^3.3.3",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8",
+    "vite-plugin-node-polyfills": "^0.22.0"
   },
   "dependencies": {
     "@builddao/near-social-js": "^1.1.0",
-    "@tanstack/react-router": "^1.58.15",
-    "@tanstack/start": "^1.58.15",
-    "@vitejs/plugin-react": "^4.3.2",
+    "@near-js/providers": "^1.0.0",
+    "@near-wallet-selector/core": "^8.9.13",
+    "@near-wallet-selector/here-wallet": "^8.9.13",
+    "@near-wallet-selector/meteor-wallet": "^8.9.13",
+    "@near-wallet-selector/modal-ui": "8.9.1",
+    "@near-wallet-selector/my-near-wallet": "^8.9.13",
+    "@tanstack/react-router": "^1.62.0",
     "big.js": "^6.2.2",
+    "near-api-js": "^5.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vinxi": "^0.4.3"
+    "rxjs": "^7.8.1",
+    "zustand": "5.0.0-rc.2"
   }
 }

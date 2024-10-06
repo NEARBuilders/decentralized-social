@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Layout } from '../components/Layout';
+import { Layout } from '../components/layout';
 import React, { useState, useEffect } from 'react';
 import Big from 'big.js';
 
